@@ -11,7 +11,7 @@ export function GhostStage() {
   return (
     <main className={styles.stage}>
       <h1 className={styles.title}>Ghost Buddy</h1>
-      <canvas ref={canvasRef} className={styles.canvas} role="img" aria-label="A small glowing glass ghost that follows your cursor, smiles when you hover it and squishes when you click it." />
+      <canvas ref={canvasRef} className={styles.canvas} role="img" aria-label="A glowing cosmic jellyfish that follows your cursor, smiles when you hover it and pulses when you click it." />
     </main>
   );
 }
